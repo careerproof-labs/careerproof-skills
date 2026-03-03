@@ -5,17 +5,31 @@
     "email": "support@careerproof.ai"
   },
   "metadata": {
-    "description": "Career and workforce intelligence powered by deep research against 50+ expert-curated sources. Atlas skills for org design, workforce planning, candidate evaluation, and research reports. CeeVee skills for CV positioning and career strategy. All grounded in RAG from HBR, McKinsey, BCG, Gartner, and live web search.",
-    "version": "1.0.0"
+    "description": "Career and workforce intelligence platform — 6 guided skills + 42 MCP tools powered by deep research against 50+ expert-curated sources. Atlas skills for org design, workforce planning, candidate evaluation, and research reports. CeeVee skills for CV positioning and career strategy. All grounded in RAG from HBR, McKinsey, BCG, Gartner, and live web search.",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "careerproof-skills",
       "source": "./",
-      "description": "6 guided workflows: Atlas (hiring onboarding, batch shortlisting, 360 candidate evaluation, 16-type research reports) and CeeVee (CV positioning pipeline, career intelligence chat) — all backed by expert-curated RAG and live web research",
-      "version": "1.0.0",
+      "description": "6 guided workflows + 42 MCP tools: Atlas (hiring onboarding, batch shortlisting, 360 candidate evaluation, 16-type research reports) and CeeVee (CV positioning pipeline, career intelligence chat) — all backed by expert-curated RAG, live web research, and the CareerProof MCP server",
+      "version": "1.1.0",
       "category": "productivity",
-      "tags": ["career", "hiring", "recruitment", "cv", "resume", "hr", "talent-acquisition", "workforce-intelligence", "org-design", "deep-research"]
+      "tags": [
+        "career",
+        "hiring",
+        "recruitment",
+        "cv",
+        "resume",
+        "hr",
+        "talent-acquisition",
+        "workforce-intelligence",
+        "org-design",
+        "deep-research",
+        "mcp",
+        "salary",
+        "compensation"
+      ]
     }
   ]
 }
