@@ -38,7 +38,15 @@ Every CareerProof skill and tool is backed by a three-layer intelligence stack:
 
 ## Installation
 
-### Claude Code (One Command)
+### Agent Skills Ecosystem (Any Agent)
+
+Works with Claude Code, Cursor, Gemini CLI, GitHub Copilot, Roo Code, and [30+ other agents](https://agentskills.io):
+
+```bash
+npx skills add careerproof-labs/careerproof-skills
+```
+
+### Claude Code (Plugin Install)
 
 ```bash
 # Add the marketplace and install

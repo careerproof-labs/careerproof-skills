@@ -5,15 +5,18 @@
     "email": "support@careerproof.ai"
   },
   "metadata": {
-    "description": "Career and workforce intelligence platform — 6 guided skills + 42 MCP tools powered by deep research against 50+ expert-curated sources. Atlas skills for org design, workforce planning, candidate evaluation, and research reports. CeeVee skills for CV positioning and career strategy. All grounded in RAG from HBR, McKinsey, BCG, Gartner, and live web search.",
-    "version": "1.1.0"
+    "description": "AI-powered career and workforce intelligence — 13 guided skills + 67 MCP tools backed by 50+ expert-curated sources (HBR, McKinsey, BCG, Gartner) with live web search. Atlas skills (9) for competency analysis, JD review, custom eval rubrics, workforce chat, and talent reports. CeeVee skills (4) for CV optimization, quick review, career intelligence chat, and career reports.",
+    "version": "2.0.0",
+    "homepage": "https://careerproof.ai",
+    "repository": "https://github.com/careerproof-labs/careerproof-skills",
+    "license": "MIT"
   },
   "plugins": [
     {
       "name": "careerproof-skills",
       "source": "./",
-      "description": "6 guided workflows + 42 MCP tools: Atlas (hiring onboarding, batch shortlisting, 360 candidate evaluation, 16-type research reports) and CeeVee (CV positioning pipeline, career intelligence chat) — all backed by expert-curated RAG, live web research, and the CareerProof MCP server",
-      "version": "1.1.0",
+      "description": "13 guided workflows + 67 MCP tools: Atlas (9 skills — hiring onboarding, GEM competency analysis, JD review, custom eval rubrics, CV-JD matching, interview generation, batch shortlisting, workforce chat, 16-type research reports) and CeeVee (4 skills — CV positioning pipeline, quick review, career intelligence chat, 17-type career reports) — all backed by expert-curated RAG from 50+ premium sources and live web research via the CareerProof MCP server",
+      "version": "2.0.0",
       "category": "productivity",
       "tags": [
         "career",
